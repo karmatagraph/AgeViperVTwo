@@ -7,15 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		483516F92834A783004F2FA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483516F82834A783004F2FA6 /* Constants.swift */; };
 		485AF6B7283387D100EBB55A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF6B6283387D100EBB55A /* AppDelegate.swift */; };
 		485AF6B9283387D100EBB55A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF6B8283387D100EBB55A /* SceneDelegate.swift */; };
 		485AF6BB283387D100EBB55A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF6BA283387D100EBB55A /* ViewController.swift */; };
 		485AF6BE283387D100EBB55A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485AF6BC283387D100EBB55A /* Main.storyboard */; };
 		485AF6C0283387D300EBB55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485AF6BF283387D300EBB55A /* Assets.xcassets */; };
 		485AF6C3283387D300EBB55A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485AF6C1283387D300EBB55A /* LaunchScreen.storyboard */; };
+		485AF70D2833887200EBB55A /* CivDetailModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF6FA2833887100EBB55A /* CivDetailModuleInterface.swift */; };
+		485AF70E2833887200EBB55A /* CivDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF6FD2833887100EBB55A /* CivDetailService.swift */; };
+		485AF70F2833887200EBB55A /* CivDetailServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF6FE2833887100EBB55A /* CivDetailServiceType.swift */; };
+		485AF7102833887200EBB55A /* CivDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7002833887100EBB55A /* CivDetailInteractor.swift */; };
+		485AF7112833887200EBB55A /* CivDetailInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7012833887100EBB55A /* CivDetailInteractorIO.swift */; };
+		485AF7122833887200EBB55A /* CivDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7042833887200EBB55A /* CivDetailPresenter.swift */; };
+		485AF7132833887200EBB55A /* CivDetailWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7062833887200EBB55A /* CivDetailWireframe.swift */; };
+		485AF7142833887200EBB55A /* CivDetailWireframeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7072833887200EBB55A /* CivDetailWireframeInput.swift */; };
+		485AF7152833887200EBB55A /* CivDetailViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF70A2833887200EBB55A /* CivDetailViewInterface.swift */; };
+		485AF7162833887200EBB55A /* CivDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF70B2833887200EBB55A /* CivDetailViewController.swift */; };
+		485AF7172833887200EBB55A /* CivDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485AF70C2833887200EBB55A /* CivDetail.storyboard */; };
+		485AF7402833890700EBB55A /* WireframeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF73F2833890700EBB55A /* WireframeInput.swift */; };
+		485AF74428338B2000EBB55A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF74328338B2000EBB55A /* NetworkManager.swift */; };
+		485AF74728338C7600EBB55A /* CivilisationResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF74628338C7600EBB55A /* CivilisationResponseModel.swift */; };
+		485AF74A28338D2900EBB55A /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF74928338D2900EBB55A /* Endpoints.swift */; };
+		485AF74C28338F4F00EBB55A /* CivApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF74B28338F4F00EBB55A /* CivApi.swift */; };
+		485AF7742833A9D700EBB55A /* CivilizationsModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7612833A9D700EBB55A /* CivilizationsModuleInterface.swift */; };
+		485AF7752833A9D700EBB55A /* CivilizationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7642833A9D700EBB55A /* CivilizationsService.swift */; };
+		485AF7762833A9D700EBB55A /* CivilizationsServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7652833A9D700EBB55A /* CivilizationsServiceType.swift */; };
+		485AF7772833A9D700EBB55A /* CivilizationsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7672833A9D700EBB55A /* CivilizationsInteractor.swift */; };
+		485AF7782833A9D700EBB55A /* CivilizationsInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7682833A9D700EBB55A /* CivilizationsInteractorIO.swift */; };
+		485AF7792833A9D700EBB55A /* CivilizationsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF76B2833A9D700EBB55A /* CivilizationsPresenter.swift */; };
+		485AF77A2833A9D700EBB55A /* CivilizationsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF76D2833A9D700EBB55A /* CivilizationsWireframe.swift */; };
+		485AF77B2833A9D700EBB55A /* CivilizationsWireframeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF76E2833A9D700EBB55A /* CivilizationsWireframeInput.swift */; };
+		485AF77C2833A9D700EBB55A /* CivilizationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7712833A9D700EBB55A /* CivilizationsViewController.swift */; };
+		485AF77D2833A9D700EBB55A /* CivilizationsViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7722833A9D700EBB55A /* CivilizationsViewInterface.swift */; };
+		485AF77E2833A9D700EBB55A /* Civilizations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485AF7732833A9D700EBB55A /* Civilizations.storyboard */; };
+		485AF7812833AA2900EBB55A /* CivilizationStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485AF7802833AA2900EBB55A /* CivilizationStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		483516F82834A783004F2FA6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		485AF6B3283387D100EBB55A /* AgeViperVTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeViperVTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		485AF6B6283387D100EBB55A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		485AF6B8283387D100EBB55A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +54,34 @@
 		485AF6BF283387D300EBB55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		485AF6C2283387D300EBB55A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		485AF6C4283387D300EBB55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485AF6FA2833887100EBB55A /* CivDetailModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivDetailModuleInterface.swift; sourceTree = "<group>"; };
+		485AF6FD2833887100EBB55A /* CivDetailService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivDetailService.swift; sourceTree = "<group>"; };
+		485AF6FE2833887100EBB55A /* CivDetailServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivDetailServiceType.swift; sourceTree = "<group>"; };
+		485AF7002833887100EBB55A /* CivDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivDetailInteractor.swift; sourceTree = "<group>"; };
+		485AF7012833887100EBB55A /* CivDetailInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivDetailInteractorIO.swift; sourceTree = "<group>"; };
+		485AF7042833887200EBB55A /* CivDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivDetailPresenter.swift; sourceTree = "<group>"; };
+		485AF7062833887200EBB55A /* CivDetailWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivDetailWireframe.swift; sourceTree = "<group>"; };
+		485AF7072833887200EBB55A /* CivDetailWireframeInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivDetailWireframeInput.swift; sourceTree = "<group>"; };
+		485AF70A2833887200EBB55A /* CivDetailViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivDetailViewInterface.swift; sourceTree = "<group>"; };
+		485AF70B2833887200EBB55A /* CivDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivDetailViewController.swift; sourceTree = "<group>"; };
+		485AF70C2833887200EBB55A /* CivDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CivDetail.storyboard; sourceTree = "<group>"; };
+		485AF73F2833890700EBB55A /* WireframeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireframeInput.swift; sourceTree = "<group>"; };
+		485AF74328338B2000EBB55A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		485AF74628338C7600EBB55A /* CivilisationResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilisationResponseModel.swift; sourceTree = "<group>"; };
+		485AF74928338D2900EBB55A /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		485AF74B28338F4F00EBB55A /* CivApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivApi.swift; sourceTree = "<group>"; };
+		485AF7612833A9D700EBB55A /* CivilizationsModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilizationsModuleInterface.swift; sourceTree = "<group>"; };
+		485AF7642833A9D700EBB55A /* CivilizationsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilizationsService.swift; sourceTree = "<group>"; };
+		485AF7652833A9D700EBB55A /* CivilizationsServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilizationsServiceType.swift; sourceTree = "<group>"; };
+		485AF7672833A9D700EBB55A /* CivilizationsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilizationsInteractor.swift; sourceTree = "<group>"; };
+		485AF7682833A9D700EBB55A /* CivilizationsInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilizationsInteractorIO.swift; sourceTree = "<group>"; };
+		485AF76B2833A9D700EBB55A /* CivilizationsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilizationsPresenter.swift; sourceTree = "<group>"; };
+		485AF76D2833A9D700EBB55A /* CivilizationsWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilizationsWireframe.swift; sourceTree = "<group>"; };
+		485AF76E2833A9D700EBB55A /* CivilizationsWireframeInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilizationsWireframeInput.swift; sourceTree = "<group>"; };
+		485AF7712833A9D700EBB55A /* CivilizationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilizationsViewController.swift; sourceTree = "<group>"; };
+		485AF7722833A9D700EBB55A /* CivilizationsViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilizationsViewInterface.swift; sourceTree = "<group>"; };
+		485AF7732833A9D700EBB55A /* Civilizations.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Civilizations.storyboard; sourceTree = "<group>"; };
+		485AF7802833AA2900EBB55A /* CivilizationStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilizationStructure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +114,11 @@
 		485AF6B5283387D100EBB55A /* AgeViperVTwo */ = {
 			isa = PBXGroup;
 			children = (
+				485AF7822833AB0500EBB55A /* Module */,
+				485AF7412833890D00EBB55A /* Base */,
+				485AF74828338D1900EBB55A /* Helpers */,
+				485AF74528338C6200EBB55A /* Model */,
+				485AF74228338ADF00EBB55A /* NetworkManager */,
 				485AF6B6283387D100EBB55A /* AppDelegate.swift */,
 				485AF6B8283387D100EBB55A /* SceneDelegate.swift */,
 				485AF6BA283387D100EBB55A /* ViewController.swift */,
@@ -65,6 +128,238 @@
 				485AF6C4283387D300EBB55A /* Info.plist */,
 			);
 			path = AgeViperVTwo;
+			sourceTree = "<group>";
+		};
+		485AF6F82833887100EBB55A /* CivDetail */ = {
+			isa = PBXGroup;
+			children = (
+				485AF6F92833887100EBB55A /* Module Interface */,
+				485AF6FB2833887100EBB55A /* Application Logic */,
+				485AF7022833887100EBB55A /* User Interface */,
+			);
+			path = CivDetail;
+			sourceTree = "<group>";
+		};
+		485AF6F92833887100EBB55A /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				485AF6FA2833887100EBB55A /* CivDetailModuleInterface.swift */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		485AF6FB2833887100EBB55A /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				485AF6FC2833887100EBB55A /* Service */,
+				485AF6FF2833887100EBB55A /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		485AF6FC2833887100EBB55A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				485AF6FD2833887100EBB55A /* CivDetailService.swift */,
+				485AF6FE2833887100EBB55A /* CivDetailServiceType.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		485AF6FF2833887100EBB55A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				485AF7002833887100EBB55A /* CivDetailInteractor.swift */,
+				485AF7012833887100EBB55A /* CivDetailInteractorIO.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		485AF7022833887100EBB55A /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				485AF7032833887100EBB55A /* Presenter */,
+				485AF7052833887200EBB55A /* Wireframe */,
+				485AF7082833887200EBB55A /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		485AF7032833887100EBB55A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				485AF7042833887200EBB55A /* CivDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		485AF7052833887200EBB55A /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				485AF7062833887200EBB55A /* CivDetailWireframe.swift */,
+				485AF7072833887200EBB55A /* CivDetailWireframeInput.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		485AF7082833887200EBB55A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				485AF7092833887200EBB55A /* ViewModels */,
+				485AF70A2833887200EBB55A /* CivDetailViewInterface.swift */,
+				485AF70B2833887200EBB55A /* CivDetailViewController.swift */,
+				485AF70C2833887200EBB55A /* CivDetail.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		485AF7092833887200EBB55A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		485AF7412833890D00EBB55A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				485AF73F2833890700EBB55A /* WireframeInput.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		485AF74228338ADF00EBB55A /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				485AF74328338B2000EBB55A /* NetworkManager.swift */,
+				485AF74B28338F4F00EBB55A /* CivApi.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		485AF74528338C6200EBB55A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				485AF74628338C7600EBB55A /* CivilisationResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		485AF74828338D1900EBB55A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				485AF74928338D2900EBB55A /* Endpoints.swift */,
+				483516F82834A783004F2FA6 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		485AF75F2833A9D700EBB55A /* Civilizations */ = {
+			isa = PBXGroup;
+			children = (
+				485AF7602833A9D700EBB55A /* Module Interface */,
+				485AF7622833A9D700EBB55A /* Application Logic */,
+				485AF7692833A9D700EBB55A /* User Interface */,
+			);
+			path = Civilizations;
+			sourceTree = "<group>";
+		};
+		485AF7602833A9D700EBB55A /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				485AF7612833A9D700EBB55A /* CivilizationsModuleInterface.swift */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		485AF7622833A9D700EBB55A /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				485AF7632833A9D700EBB55A /* Service */,
+				485AF7662833A9D700EBB55A /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		485AF7632833A9D700EBB55A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				485AF7642833A9D700EBB55A /* CivilizationsService.swift */,
+				485AF7652833A9D700EBB55A /* CivilizationsServiceType.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		485AF7662833A9D700EBB55A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				485AF7672833A9D700EBB55A /* CivilizationsInteractor.swift */,
+				485AF7682833A9D700EBB55A /* CivilizationsInteractorIO.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		485AF7692833A9D700EBB55A /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				485AF76A2833A9D700EBB55A /* Presenter */,
+				485AF76C2833A9D700EBB55A /* Wireframe */,
+				485AF76F2833A9D700EBB55A /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		485AF76A2833A9D700EBB55A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				485AF77F2833AA1000EBB55A /* CivilizationStructure */,
+				485AF76B2833A9D700EBB55A /* CivilizationsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		485AF76C2833A9D700EBB55A /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				485AF76D2833A9D700EBB55A /* CivilizationsWireframe.swift */,
+				485AF76E2833A9D700EBB55A /* CivilizationsWireframeInput.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		485AF76F2833A9D700EBB55A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				485AF7702833A9D700EBB55A /* ViewModels */,
+				485AF7712833A9D700EBB55A /* CivilizationsViewController.swift */,
+				485AF7722833A9D700EBB55A /* CivilizationsViewInterface.swift */,
+				485AF7732833A9D700EBB55A /* Civilizations.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		485AF7702833A9D700EBB55A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		485AF77F2833AA1000EBB55A /* CivilizationStructure */ = {
+			isa = PBXGroup;
+			children = (
+				485AF7802833AA2900EBB55A /* CivilizationStructure.swift */,
+			);
+			path = CivilizationStructure;
+			sourceTree = "<group>";
+		};
+		485AF7822833AB0500EBB55A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				485AF75F2833A9D700EBB55A /* Civilizations */,
+				485AF6F82833887100EBB55A /* CivDetail */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +420,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				485AF77E2833A9D700EBB55A /* Civilizations.storyboard in Resources */,
+				485AF7172833887200EBB55A /* CivDetail.storyboard in Resources */,
 				485AF6C3283387D300EBB55A /* LaunchScreen.storyboard in Resources */,
 				485AF6C0283387D300EBB55A /* Assets.xcassets in Resources */,
 				485AF6BE283387D100EBB55A /* Main.storyboard in Resources */,
@@ -138,9 +435,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				485AF7402833890700EBB55A /* WireframeInput.swift in Sources */,
+				485AF7102833887200EBB55A /* CivDetailInteractor.swift in Sources */,
+				485AF7112833887200EBB55A /* CivDetailInteractorIO.swift in Sources */,
+				485AF7142833887200EBB55A /* CivDetailWireframeInput.swift in Sources */,
+				485AF7152833887200EBB55A /* CivDetailViewInterface.swift in Sources */,
+				483516F92834A783004F2FA6 /* Constants.swift in Sources */,
+				485AF70D2833887200EBB55A /* CivDetailModuleInterface.swift in Sources */,
+				485AF7162833887200EBB55A /* CivDetailViewController.swift in Sources */,
+				485AF7792833A9D700EBB55A /* CivilizationsPresenter.swift in Sources */,
+				485AF7132833887200EBB55A /* CivDetailWireframe.swift in Sources */,
+				485AF70E2833887200EBB55A /* CivDetailService.swift in Sources */,
 				485AF6BB283387D100EBB55A /* ViewController.swift in Sources */,
+				485AF77A2833A9D700EBB55A /* CivilizationsWireframe.swift in Sources */,
+				485AF74A28338D2900EBB55A /* Endpoints.swift in Sources */,
+				485AF7782833A9D700EBB55A /* CivilizationsInteractorIO.swift in Sources */,
 				485AF6B7283387D100EBB55A /* AppDelegate.swift in Sources */,
+				485AF74C28338F4F00EBB55A /* CivApi.swift in Sources */,
+				485AF7742833A9D700EBB55A /* CivilizationsModuleInterface.swift in Sources */,
+				485AF7752833A9D700EBB55A /* CivilizationsService.swift in Sources */,
 				485AF6B9283387D100EBB55A /* SceneDelegate.swift in Sources */,
+				485AF77C2833A9D700EBB55A /* CivilizationsViewController.swift in Sources */,
+				485AF7812833AA2900EBB55A /* CivilizationStructure.swift in Sources */,
+				485AF74728338C7600EBB55A /* CivilisationResponseModel.swift in Sources */,
+				485AF77B2833A9D700EBB55A /* CivilizationsWireframeInput.swift in Sources */,
+				485AF77D2833A9D700EBB55A /* CivilizationsViewInterface.swift in Sources */,
+				485AF7772833A9D700EBB55A /* CivilizationsInteractor.swift in Sources */,
+				485AF70F2833887200EBB55A /* CivDetailServiceType.swift in Sources */,
+				485AF74428338B2000EBB55A /* NetworkManager.swift in Sources */,
+				485AF7122833887200EBB55A /* CivDetailPresenter.swift in Sources */,
+				485AF7762833A9D700EBB55A /* CivilizationsServiceType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

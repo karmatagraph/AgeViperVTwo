@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HSb-ou-7T5">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Civilizations-->
+        <scene sceneID="R60-Pu-Hpy">
+            <objects>
+                <viewController storyboardIdentifier="CivilizationsViewController" title="Civilizations" id="HSb-ou-7T5" customClass="CivilizationsViewController" customModule="AgeViperVTwo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y1H-iV-BwG"/>
+                        <viewControllerLayoutGuide type="bottom" id="PYB-Kq-ghm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Uc-9s-KgO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="xVU-OM-tf4">
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="81c-4T-mO6">
+                                        <rect key="frame" x="0.0" y="44.5" width="343" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="81c-4T-mO6" id="ks4-ax-doU">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="xVU-OM-tf4" secondAttribute="trailing" id="VVc-M5-a6G"/>
+                            <constraint firstItem="xVU-OM-tf4" firstAttribute="top" secondItem="y1H-iV-BwG" secondAttribute="bottom" id="fGV-nM-zzL"/>
+                            <constraint firstItem="PYB-Kq-ghm" firstAttribute="top" secondItem="xVU-OM-tf4" secondAttribute="bottom" id="h49-iG-Kis"/>
+                            <constraint firstItem="xVU-OM-tf4" firstAttribute="leading" secondItem="9Uc-9s-KgO" secondAttribute="leadingMargin" id="hec-xM-Bfh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="civilizationTableView" destination="xVU-OM-tf4" id="uS1-HU-jYl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8je-5K-XuW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-91" y="233"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.78177064659999995" green="0.55228364470000002" blue="0.018981300289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
